@@ -1,0 +1,43 @@
+/* left */
+#leftcolumn {
+    padding: 40px;
+    padding-top: 12vh;
+    background-color: #CCC9A1;
+    background-image:1.jpg;
+}
+#leftcolumn i{
+    color: #4C230A;
+}
+
+/*right*/
+#rightcolumn {
+    padding: 40px;
+    background-color: #F0FFCE;
+    padding-top: 12vh;
+}
+#rightcolumn h1 {
+    color: #A53F2B;
+}
+#rightcolumn h4 {
+    color: #390106;
+}
+#rightcolumn b {
+    color: 
+}
+
+/*all*/
+#header {
+    height:10vh;
+    background-color: #CCC9A1;
+}
+#header h1 {
+    padding-top:12px;
+    padding-left: 40px;
+    color: #4C230A;
+}
+.picture {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,43 +1,112 @@
-/* left */
-#leftcolumn {
-    padding: 40px;
-    padding-top: 12vh;
-    background-color: #CCC9A1;
-    background-image:1.jpg;
-}
-#leftcolumn i{
-    color: #4C230A;
-}
-
-/*right*/
-#rightcolumn {
-    padding: 40px;
-    background-color: #F0FFCE;
-    padding-top: 12vh;
-}
-#rightcolumn h1 {
-    color: #A53F2B;
-}
-#rightcolumn h4 {
-    color: #390106;
-}
-#rightcolumn b {
-    color: 
+#title {
+    padding-left: 50%;
+    padding-bottom: 20px;
+    font-family: "Palatino";
+    font-style: italic;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
-/*all*/
-#header {
+.bg1, .bg2, .bg3 {
+    height: 50%;
+    background-image: url(Background2.JPG);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.bg1 {
+    background-image: url(Background2.JPG);
+}
+
+.bg2 {
+    background-image: url(Background3.JPG);
+}
+
+.bg3 {
+    background-image: url(Background4.JPG);
+}
+
+#FloatingMenu {
     height:10vh;
-    background-color: #CCC9A1;
+    padding-left: 10%;
 }
-#header h1 {
-    padding-top:12px;
-    padding-left: 40px;
-    color: #4C230A;
+
+.FloatingBack {
+    left:0;
+    top:50%;
+    position:fixed;
+    z-index: 1;
 }
-.picture {
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+
+.date {
+    text-align: right;
+    font-size: 20px;
+}
+
+.FloatingNext {
+    right:0;
+    top:50%;
+    position: fixed;
+    z-index: 1;
+}
+
+.home {
     display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Palatino";
+    font-style: normal;
+}
+
+#header {
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: left;
+    font-style: italic;
+    font-family: "Palatino";
+    font-size: 30px;
+}
+#letter {
+    padding-left: 15%;
+    padding-right:15%;
+    text-align: left;
+    font-style: italic;
+    font-family: "Palatino";
+    font-size: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.block {
+    position: absolute;
+    bottom: 30%;
+    left: 30vh;
+    right: 30vh;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    font-family: "Palatino";
+    font-size: 20px;
 }
